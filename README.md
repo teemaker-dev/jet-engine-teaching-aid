@@ -9,8 +9,8 @@
 ## 预览
 
 ![桌面端](docs/preview-desktop.png)
-![涡轮视角](docs/preview-turbine.png)
-![剖切视图](docs/preview-sliced.png)
+![桌面端（修复后）](docs/preview-desktop-after-fix.png)
+![移动端](docs/preview-mobile.png)
 
 ## 技术栈
 
