@@ -4,7 +4,7 @@
 
 ## 在线 Demo
 
-> **在线体验**：https://zhoujy0927.github.io/jet-engine-teaching-aid/
+> **在线体验**：https://teemaker-dev.github.io/jet-engine-teaching-aid/
 
 ## 预览
 
