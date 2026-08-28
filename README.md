@@ -4,7 +4,7 @@
 
 ## 在线 Demo
 
-> ⏳ 部署后在此填入 GitHub Pages 链接
+> **在线体验**：https://zhoujy0927.github.io/jet-engine-teaching-aid/
 
 ## 预览
 
