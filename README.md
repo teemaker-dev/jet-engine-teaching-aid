@@ -2,6 +2,16 @@
 
 面向机械、航空航天课程的交互式涡喷发动机教学模型。全程序化几何构建，零外部模型 / 图片 / 音频素材。
 
+## 在线 Demo
+
+> ⏳ 部署后在此填入 GitHub Pages 链接
+
+## 预览
+
+![桌面端](docs/preview-desktop.png)
+![涡轮视角](docs/preview-turbine.png)
+![剖切视图](docs/preview-sliced.png)
+
 ## 技术栈
 
 - React 19 + TypeScript
@@ -58,3 +68,17 @@ npm run preview    # 预览生产构建
 - 叶片采用 InstancedMesh 批量渲染（14 次 draw call 覆盖全部叶片）
 - `dpr` 上限 2、阻尼轨道控制、粒子单 BufferGeometry 就地更新
 - 生产包约 1.09 MB（gzip 308 KB），无外部请求
+
+## 项目结构
+
+```
+src/
+  engine/     Three.js 场景、几何构建、动画与热力模型
+  data/       站位信息、教学章节、参数模型
+  ui/         React 界面组件（控制面板 / 信息卡 / 教学章节）
+  App.tsx     三栏布局（桌面）/ 底部抽屉（移动端）
+```
+
+## 许可
+
+MIT © 2026 Zhou Jianyong。教学与学习用途自由使用、修改、分发。
